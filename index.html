@@ -4,15 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Cardano Student Seminar Home page</title>
 </head>
 <body>
     <header>
-        <nav></nav>
+        <nav>
+            <div class="desktop-toptag md:h-8 md:block hidden">
+                <ul class="flex text-white gap-5 justify-end pr-96 items-center pt-1">
+                    <li><a href=""><img class="h-5" src="images/facebook.png" alt="facebook icon"></a></li>
+                    <li><a href=""><img class="h-5" src="images/twitter.png" alt="facebook icon"></a></li>
+                    <li>English</li>
+                    <li>My Page</li>
+                    <li>Logout</li>
+                </ul>
+            </div>
+            <div class="md:flex items-center pl-64 hidden bg-white drop-shadow-sm">
+             <img src="images/project.png" class="h-20" alt="">
+             <ul class="flex gap-16 ml-72 text-base font-medium">
+                 <li><a href="">About</a></li>
+                 <li><a href="">Program</a></li>
+                 <li><a href="">Join</a></li>
+                 <li><a href="">Sponsor</a></li>
+                 <li><a href="">News</a></li>
+             </ul>
+             <button class="ml-28 border-4 p-3">CC Campaign</button>
+          </div>
+        </nav>
     </header>
     <main>
-        <section>
-            <h1>Home pages</h1>
+        <section class="main-head h-screen bg-[url('images/conference.jpg')] bg-no-repeat bg-top bg-cover">
+            <div class="bg-gradient-to-t from-white h-screen">
+            <div class="md:hidden">
+                <img src="images/more.png" class="h-14 p-3" alt="humberger menu">
+            </div>
+            <div>
+                <h2>Hello! Sharing Cardano</h2>
+               <h1>GLOBAL CARDANO STUDENT SEMINAR 2022</h1>
+               <div class="w- head-qout">
+                   <p>Explore the Cardano Summit 2022. Talks, presentations, and demos from Cardano leaders and luminaries hosted in the biggest virtual world ever for a blockchain event.</p>
+               </div>
+               <div>
+                   <h2>2022.10.15(TUH) ~ 16(FRI)</h2>
+                   <p>@ Addis Ababa University, AAiT</p>
+               </div>
+            </div>
+        </div>
         </section>
     </main>
     <footer></footer>
