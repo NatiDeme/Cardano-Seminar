@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="./dist/output.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Cardano Student Seminar Home page</title>
 </head>
@@ -22,7 +22,7 @@
                 </ul>
             </div>
             <div class="md:flex items-center pl-64 hidden bg-white drop-shadow-sm">
-             <img src="images/project.png" class="h-20" alt="">
+            <a href="index.html"><img src="images/project.png" class="h-20" alt=""></a>
              <ul class="flex gap-16 ml-72 text-base font-medium">
                  <li><a href="">About</a></li>
                  <li><a href="">Program</a></li>
@@ -30,69 +30,96 @@
                  <li><a href="">Sponsor</a></li>
                  <li><a href="">News</a></li>
              </ul>
-             <button class="ml-28 border-4 p-3">CC Campaign</button>
+             <button class="ml-28 border-4 border-brandorange text-brandorange p-3">CC Campaign</button>
           </div>
         </nav>
     </header>
     <main>
-        <section class="main-head">
-            <div class="bg-gradient-to-t from-white">
+        <section class="main-head bg-brandgray bg-opacity-40 md:h-full">
+            <div class="bg-[url('images/backpattern.png')] bg-no-repeat bg-contain bg-center">
             <div class="md:hidden">
                 <img src="images/more.png" class="h-14 p-3" alt="humberger menu">
             </div>
-            <div class="mt-16 flex flex-col items-center text-center">
-                <h2 class="text-2xl font-normal">Hello! Sharing Cardano</h2>
-               <h1 class="text-4xl font-black">GLOBAL CARDANO STUDENT SEMINAR 2022</h1>
-               <div class="w- head-qout w-80 text-sm mt-5 bg-white p-2">
-                   <p>Presentations, and demos from Cardano leaders and luminaries hosted in the biggest virtual world ever for a blockchain event.</p>
+            <div class="pt-16 flex flex-col items-center text-center">
+                <h2 class="text-2xl md:text-4xl font-normal text-brandorange md:hidden">Hello! Sharing Cardano</h2>
+               <h1 class="md:w-1/3 text-4xl md:text-5xl text-brandorange font-black md:mt-24 md:mb-5">GLOBAL CARDANO STUDENT SEMINAR 2022</h1>
+               <div class="flex justify-center mt-2 md:mb-5">
+                <div class="bg-brandorange h-0.5 w-6"></div>
+            </div>
+               <div class="md:w-1/3 md:p-5 head-qout w-80 text-sm mt-5 bg-white p-2 md:mb-5">
+                   <p>Presentations, and demos from Cardano leaders and luminaries hosted in the biggest virtual world ever for a blockchain event. Presentations, and demos from Cardano leaders and luminaries hosted in the biggest virtual world ever for a blockchain event. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore animi, quos accusantium doloremque soluta perferendis corrupti! Hic repellat reprehenderit voluptatum harum cupiditate. Aut facere rerum officia tenetur minus cupiditate tempora.</p>
                </div>
-               <div class="mt-5">
-                   <p>Please contact us per Email for any further questions about Cardano Student Seminar 2022</p>
+               <div class="mt-5 md:mb-24">
+                   <p class="text-sm text-center mx-5">Please contact us per Email for any further questions about Cardano Student Seminar 2022</p>
+                   <div class="md:flex md:items-center md:justify-center md:gap-2 py-2">
                    <a href="#" class="font-bold underline">demelashnatnael@gmail.com</a>
+                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:block hidden pt-1" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                  </svg>
+                </div>
                </div>
             </div>
         </div>
         </section>
 
-        <section class="flex flex-col items-center m-10">
-            <h2 class="text-lg font-black w-72 text-center">Creative Commons Global Summit 2022 Logo</h2>
-            <img src="" alt="">
-            <p>The logo of CC Global Summit 2022 was decided through the logo competition from 8.Jue to 7.July.</p>
-            <img src="" alt="">
+        <section class="flex flex-col items-center p-6 md:p-0">
+            <h2 class="text-2xl font-black text-center md:mt-16">Creative Commons Global Summit 2022 Logo</h2>
+            <div class="flex justify-center mt-2">
+                <div class="bg-brandorange h-0.5 w-6"></div>
+            </div>
+            <p class="text-sm text-center mt-5 md:hidden">The logo of CC Global Summit 2022 was decided through the logo competition from 8.Jue to 7.July.</p>
+            <p class="text-sm text-center mt-5 hidden md:block md:w-1/3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam molestiae aut doloremque alias. Voluptas eos ducimus nostrum praesentium quidem odit, non inventore, vero quos sapiente harum, tempore laboriosam nisi dolores.</p>
+            <div class="border-2 border-brandgray m-3 mt-5 md:mb-12">
+            <img class="h-36 px-7" src="images/project.png" alt="logo">
+        </div>
+        <hr class="hr">
         </section>
 
-        <section class=" text-center">
-            <h2 class="font-black text-lg"> See the past CC Global Summits</h2>
-            <img src="" alt="">
-            <p>Take a look at the last two CC Global Summits which took place in Buenos Aires and in Warasaw.</p>
-            <ul class=" m-5 flex flex-col gap-5">
-                <li class="bg-[url('images/pastcover1.jpg')] bg-cover bg-center">
-                    <div class="bg-red-600 bg-opacity-60 text-white text-center h-48 flex flex-col justify-center gap-2">
+        <section class="">
+            <h2 class="font-black text-2xl text-center md:mt-10"> See the past CC Global Summits</h2>
+            <div class="flex justify-center mt-2">
+                <div class="bg-brandorange h-0.5 w-6"></div>
+            </div>
+            <p class="text-sm text-center m-5">Take a look at the last two CC Global Summits which took place in Buenos Aires and in Warasaw.</p>
+            <ul class=" m-5 flex flex-col gap-5 md:flex-row md:justify-center">
+                <li class="bg-[url('images/pastcover1.jpg')] bg-cover bg-center md:w-80">
+                    <div class="bg-brandorange bg-opacity-60 text-white text-center h-48 flex flex-col justify-center gap-2">
                     <h2 class="font-black text-2xl">2020</h2>
                     <p>Cardano Student seminar</p>
                 </div>
                 </li>
-                <li class="bg-[url('images/pastcover1.jpg')] bg-cover bg-center">
-                    <div class="bg-red-600 bg-opacity-60 text-white text-center h-48 flex flex-col justify-center gap-2">
+                <li class="bg-[url('images/pastcover1.jpg')] bg-cover bg-center md:w-80">
+                    <div class="bg-brandorange bg-opacity-60 text-white text-center h-48 flex flex-col justify-center gap-2">
                     <h2 class="font-black text-2xl">2020</h2>
                     <p>Cardano Student seminar</p>
                 </div>
                 </li>
             </ul>
+            <hr>
         </section>
 
-        <section>
-            <h2></h2>
-            <img src="" alt="">
-            <ul>
-                <li><img src="" alt=""></li>
+        <section class="bg-brandbrown text-white text-center h-52 pt-3 md:hidden">
+            <h2 class="text-2xl font-black">Partner</h2>
+            <div class="flex justify-center mt-2">
+                <div class="bg-brandorange h-px w-10"></div>
+            </div>
+            <ul class="flex flex-wrap justify-center m-5 gap-4">
+                <li><img src="images/airbnb.png" class="h-10 opacity-30" alt=""></li>
+                <li><img src="images/airbnb.png" class="h-10 opacity-30" alt=""></li>
+                <li><img src="images/airbnb.png" class="h-10 opacity-30" alt=""></li>
+                <li><img src="images/airbnb.png" class="h-10 opacity-30" alt=""></li>
+                <li><img src="images/airbnb.png" class="h-10 opacity-30" alt=""></li>
             </ul>
         </section>
        
     </main>
-    <footer>
-        <h2></h2>
-        <p></p>
+    <footer class="px-5 gap-8 pt-8 h-28 md:bg-brandbrown footer md:text-white">
+     <div class="flex px-3 gap-8 items-center md:pl-80 md:gap-60">
+        <h2 class="font-black">Cardano Student Seminar</h2>
+        <div class="text-sm">
+        <p>2022 Cardano Seminar Ethiopia. Some Rights Reserved</p>
+    </div>
+    </div>
     </footer>
 </body>
 </html>

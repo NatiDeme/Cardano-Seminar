@@ -13,3 +13,18 @@
 .programs {
   background-color: #3E3E3E;
 }
+
+@media (min-width: 768px) {
+  .footer {
+    background: #272a31;
+  }
+
+  .hr {
+  display:block;
+  width: 100%;               
+  }
+
+  .main-program {
+  height: 500px;
+  }
+}

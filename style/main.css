@@ -17,3 +17,18 @@
 .programs {
   background-color: #3E3E3E;
 }
+
+.speaker {
+  background-size: 60px;
+}
+
+@media (min-width: 768px) {
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-program {
+    hieght: 500px;
+  }
+}

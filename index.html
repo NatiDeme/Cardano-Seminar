@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="./dist/output.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="main.js" defer></script>
     <title>Cardano Student Seminar Home page</title>
 </head>
 <body>
     <header>
         <nav>
             <div class="desktop-toptag md:h-8 md:block hidden">
-                <ul class="flex text-white gap-5 justify-end pr-96 items-center pt-1">
+                <ul class="flex text-white gap-5 justify-end md:pr-96 sm:pr-10 items-center pt-1">
                     <li><a href=""><img class="h-5" src="images/facebook.png" alt="facebook icon"></a></li>
                     <li><a href=""><img class="h-5" src="images/twitter.png" alt="facebook icon"></a></li>
                     <li>English</li>
@@ -22,105 +23,136 @@
                 </ul>
             </div>
             <div class="md:flex items-center pl-64 hidden bg-white drop-shadow-sm">
-             <img src="images/project.png" class="h-20" alt="">
+             <a href="#"><img src="images/project.png" class="h-20" alt=""></a>
              <ul class="flex gap-16 ml-72 text-base font-medium">
-                 <li><a href="">About</a></li>
+                 <li><a href="About.html" class="text-brandorange">About</a></li>
                  <li><a href="">Program</a></li>
                  <li><a href="">Join</a></li>
                  <li><a href="">Sponsor</a></li>
                  <li><a href="">News</a></li>
              </ul>
-             <button class="ml-28 border-4 p-3">CC Campaign</button>
+             <button class="ml-28 border-4 border-brandorange text-brandorange p-3">CC Campaign</button>
           </div>
         </nav>
     </header>
     <main>
-        <section class="main-head h-full bg-[url('images/conference.jpg')] bg-no-repeat bg-top bg-cover">
-            <div class="bg-gradient-to-t from-white h-screen">
+        <section class="bg-[url('images/conference.jpg')] bg-no-repeat bg-cover md:h-screen">
+            <div class="bg-brandgray bg-opacity-80 md:h-full">
+            <div class="bg-gradient-to-t from-white ">
+            <div class="bg-[url('images/backpattern.png')] bg-no-repeat bg-cover bg-center md:h-screen">
             <div class="md:hidden">
                 <img src="images/more.png" class="h-14 p-3" alt="humberger menu">
             </div>
-            <div class="m-5 mt-16">
-                <h2 class="text-2xl font-normal">Hello! Sharing Cardano</h2>
-               <h1 class="text-4xl font-black">GLOBAL CARDANO STUDENT SEMINAR 2022</h1>
-               <div class="w- head-qout w-80 text-sm mt-5 border-2 border-white p-2">
+            <div class="p-5 md:ml-60 md:pt-40">
+                <h2 class="text-2xl md:text-4xl font-normal text-brandorange ">Hello! Sharing Cardano</h2>
+                <div>
+               <h1 class="bg-clip-text text-transparent bg-[url('images/mainbg.jpg')] bg-cover md:w-1/2 text-4xl md:text-7xl text-brandorange font-black">GLOBAL CARDANO STUDENT SEMINAR 2022</h1>
+            </div>
+               <div class="md:text-lg md:w-1/3 head-qout w-80 text-sm mt-5 border-2 border-white p-5">
                    <p>Presentations, and demos from Cardano leaders and luminaries hosted in the biggest virtual world ever for a blockchain event.</p>
                </div>
                <div class="mt-5">
-                   <h2 class="text-2xl font-black">2022.10.15(TUH) ~ 16(FRI)</h2>
-                   <p>@ Addis Ababa University, AAiT</p>
+                   <h2 class="text-2xl md:text-4xl font-black">2022.10.15(TUH) ~ 16(FRI)</h2>
+                   <p class="md:text-4xl">@ Addis Ababa University, AAiT</p>
                </div>
             </div>
+            </div>
         </div>
+    </div>
         </section>
-        <section class="programs flex flex-col items-center pt-6"> 
-            <h2 class="text-white">Main Program</h2>
-            <img src="" alt="">
-            <ul class="mt-3 flex flex-col gap-6">
-                <li class="">
-                    <div class="flex items-center bg-slate-300 bg-opacity-10 mx-5 gap-3 p-2">
+        <section class="bg-brandbrown main-program"> 
+            <div class="bg-[url('images/mainprogram.png')] bg-no-repeat bg-cover flex flex-col items-center pt-6">
+            <h2 class="text-white font-black text-xl">Main Program</h2>
+            <div class="flex justify-center mt-2">
+                <div class="bg-brandorange h-0.5 w-8"></div>
+            </div>
+            <ul class="mt-5 flex flex-col gap-6 md:flex-row md:gap-x-1">
+                <li>
+                    <div class="flex items-center bg-brandgray bg-opacity-10 gap-3 mx-5 md:mx-0 p-2 md:flex-col md:items-center md:text-center md:w-52 md:h-56 md:hover:border-2 md:hover:border-white">
                         <img src="images/facebook.png" class="h-10" alt="">
-                        <h3 class="text-orange-600 text-2xl font-black">Lecture</h3>
-                        <p class="text-white text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum consectetur, ipsam nihil </p>
+                        <h3 class="text-orange-600 text-2xl font-black ">Lecture</h3>
+                        <p class="text-white text-sm ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum consectetur, ipsam nihil </p>
                     </div>
                 </li>
                 <li>
-                    <div class="flex items-center bg-slate-300 bg-opacity-10 mx-5 gap-3 p-2">
+                    <div class="flex items-center bg-slate-300 bg-opacity-10 mx-5 md:mx-0 gap-3 p-2 md:flex-col md:items-center md:text-center md:w-52 md:h-56 md:hover:border-2 md:hover:border-white">
                         <img src="images/facebook.png" class="h-10" alt="">
-                        <h3 class="text-orange-600 text-2xl font-black">Lecture</h3>
-                        <p class="text-white text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum consectetur, ipsam nihil </p>
+                        <h3 class="text-orange-600 text-2xl font-black ">Lecture</h3>
+                        <p class="text-white text-sm ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum consectetur, ipsam nihil </p>
                     </div>
                 </li>
                 <li>
-                    <div class="flex items-center bg-slate-300 bg-opacity-10 mx-5 gap-3 p-2">
+                    <div class="flex items-center bg-slate-300 bg-opacity-10 mx-5 md:mx-0 gap-3 p-2 md:flex-col md:items-center md:text-center md:w-52 md:h-56 md:hover:border-2 md:hover:border-white">
                         <img src="images/facebook.png" class="h-10" alt="">
-                        <h3 class="text-orange-600 text-2xl font-black">Lecture</h3>
-                        <p class="text-white text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum consectetur, ipsam nihil </p>
+                        <h3 class="text-orange-600 text-2xl font-black ">Lecture</h3>
+                        <p class="text-white text-sm ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum consectetur, ipsam nihil </p>
                     </div>
                 </li>
                 <li>
-                    <div class="flex items-center bg-slate-300 bg-opacity-10 mx-5 gap-3 p-2">
+                    <div class="flex items-center bg-slate-300 bg-opacity-10 mx-5 md:mx-0 gap-3 p-2 md:flex-col md:items-center md:text-center md:w-52 md:h-56 md:hover:border-2 md:hover:border-white">
                         <img src="images/facebook.png" class="h-10" alt="">
-                        <h3 class="text-orange-600 text-2xl font-black">Lecture</h3>
-                        <p class="text-white text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum consectetur, ipsam nihil </p>
+                        <h3 class="text-orange-600 text-2xl font-black ">Lecture</h3>
+                        <p class="text-white text-sm ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum consectetur, ipsam nihil </p>
                     </div>
                 </li>
                 <li>
-                    <div class="flex items-center bg-slate-300 bg-opacity-10 mx-5 gap-3 p-2">
+                    <div class="flex items-center bg-slate-300 bg-opacity-10 mx-5 md:mx-0 gap-3 p-2 md:flex-col md:items-center md:text-center md:w-52 md:h-56 md:hover:border-2 md:hover:border-white">
                         <img src="images/facebook.png" class="h-10" alt="">
-                        <h3 class="text-orange-600 text-2xl font-black">Lecture</h3>
-                        <p class="text-white text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum consectetur, ipsam nihil </p>
+                        <h3 class="text-orange-600 text-2xl font-black ">Lecture</h3>
+                        <p class="text-white text-sm ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum consectetur, ipsam nihil </p>
                     </div>
                 </li>
             </ul>
             <div class="my-7">
-                <button class="bg-red-500 text-white text-lg p-5">Join Cardano Student Seminar 2022</button>
+                <button class="bg-red-500 text-white text-lg p-5 md:hidden">Join Cardano Student Seminar 2022</button>
+                <a href="#" class="hidden text-white md:block underline">SEE THE WHOLE PROGRAM</a>
             </div>
-        </section>
-
-        <section class="flex flex-col items-center">
-        <h2>Featured Speakers</h2>
-        <img src="" alt="">
-        <ul>
-            <li>
-                <div class="flex gap-3 mx-3 my-5">
-                    <div>
-                        <img src="images/conference.jpg" class="h-20" alt="">
-                    </div>
-                    <div>
-                        <h3 class="font-black">Yochai Benkler</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <img src="" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-            </li>
-        </ul>
-        <div>
-            <button class="border-2 border-slate-700 w-96 rounded-md p-2">More</button>
         </div>
         </section>
+
+        <section class="flex flex-col  bg-brandgray bg-opacity-10">
+        <div class="flex flex-col items-center">
+        <h2 class="text-2xl font-black md:pt-12">Featured Speakers</h2>
+        <div class="flex justify-center mt-2">
+            <div class="bg-brandorange h-px w-10"></div>
+        </div>
+        </div>
+    <div id="speaker">
+       
+    </div>
+        <div class="my-10 md:hidden flex justify-center">
+            <button class="border-2 border-brandgray w-96 rounded-md p-2">
+                <div class="flex justify-center items-center gap-3">
+               <p class="text-base">MORE</p> 
+               <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-brandorange" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            </button>
+        </div>
+        </section>
+        <section class="bg-brandbrown text-white text-center h-64 pt-3 hidden md:block">
+            <h2 class="text-2xl font-black md:opacity-50">Partner</h2>
+            <div class="flex justify-center mt-2">
+                <div class="bg-brandorange h-px w-10"></div>
+            </div>
+            <ul class="flex flex-wrap justify-center m-5 gap-4 md:gap-10">
+                <li><img src="images/airbnb.png" class="h-10 md:h-16 opacity-30" alt=""></li>
+                <li><img src="images/airbnb.png" class="h-10 md:h-16 opacity-30" alt=""></li>
+                <li><img src="images/airbnb.png" class="h-10 md:h-16 opacity-30" alt=""></li>
+                <li><img src="images/airbnb.png" class="h-10 md:h-16 opacity-30" alt=""></li>
+                <li><img src="images/airbnb.png" class="h-10 md:h-16 opacity-30" alt=""></li>
+            </ul>
+        </section>
+       
     </main>
-    <footer></footer>
+    <footer class=" bg-brandgray bg-opacity-10 hidden md:block">
+    <div class="flex px-5 gap-8 items-center h-28 md:pl-80 md:gap-60">
+        <h2 class="font-black md:text-2xl">Cardano Student Seminar</h2>
+        <div class="text-sm">
+        <p>2022 Cardano Seminar Ethiopia. Some Rights Reserved</p>
+    </div>
+</div>
+    </footer>
 </body>
 </html>
