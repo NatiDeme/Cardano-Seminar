@@ -1,5 +1,5 @@
 # Cardano Seminar Website
-This website that holds information about me, my work and all about my tech jounry.
+This website that holds information about Cardano Student Seminar. The project was done as a final showcasing project to finalize a module.
 
 # Built With: 
 - HTML
