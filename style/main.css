@@ -44,7 +44,9 @@
 @media (min-width: 768px) {
   .list {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    height: 500px;
   }
 
   .main-program {

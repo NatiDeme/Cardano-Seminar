@@ -58,13 +58,13 @@ if (window.innerWidth > 768) {
   speakerElement = '';
   for (let i = 0; i < speakers.length; i += 1) {
     speakerElement += `
-  <ul class="flex flex-col flex-no-wrap items-center md:items-start md:max-h-96 md:flex-wrap md:ml-52" >
+  <ul class="flex flex-col flex-no-wrap items-center md:items-start" >
   <li>
-  <div class="flex ml-5 gap-5 my-6">
+  <div class="flex gap-4 my-4">
       <div class="bg-[url('images/speakerbg.jpg')] bg-no-repeat speaker w-52">
           <img src="${speakers[i].image.link}" class="h-24 mt-8 pl-5" alt="">
       </div>
-      <div class="">
+      <div class="md:w-52">
           <h3 class="font-black text-base">${speakers[i].name}</h3>
           <p class="text-brandorange">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           <div class="mt-2">
