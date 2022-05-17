@@ -5,8 +5,9 @@ This website that holds information about me, my work and all about my tech joun
 - HTML
 - CSS
 - JavaScript
+- **Technologies** - Tailwind CSS
 # Live Demo
--
+- See live Demo here https://natideme.github.io/Cardano-Seminar
 
 # Getting Started
 
@@ -16,8 +17,9 @@ To get a local copy up and running follow these simple example steps.
 
 # Setup
 1. Copy the repository's link and clone it to your local folder.
-- git clone https://github.com/NatiDeme/CardanoSeminar.git
+- git clone https://github.com/NatiDeme/Cardano-Seminar.git
 2. Open folder in any of the text editors.
+3. Run 'npm install' to add all packages from the project.
 # Author
 
 - GitHub: @NatiDeme / github.com/NatiDeme
