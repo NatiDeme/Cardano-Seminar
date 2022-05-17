@@ -1,5 +1,6 @@
 # Cardano Seminar Website
 This website that holds information about Cardano Student Seminar. The project was done as a final showcasing project to finalize a module.
+[![Watch the video](https://www.loom.com/share/d86bd6f9d6f844ed9f73af43cc225675)
 
 # Built With: 
 - HTML
@@ -7,7 +8,7 @@ This website that holds information about Cardano Student Seminar. The project w
 - JavaScript
 - **Technologies** - Tailwind CSS
 # Live Demo
-- See live Demo here https://natideme.github.io/Cardano-Seminar
+- See [live Demo](https://natideme.github.io/Cardano-Seminar)
 
 # Getting Started
 
@@ -34,5 +35,6 @@ Feel free to check the issues page.
 # Show your support
 Give a ⭐️ if you like this project!
 
-Acknowledgments
-Original design idea by Cindy Shin in Behance.
+# Acknowledgment
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+
